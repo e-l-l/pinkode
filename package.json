@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pinkode - Pink colot theme",
+        "label": "Pinkode - Pink color theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Pinkode - Pink colot theme-color-theme.json"
+        "path": "./themes/Pinkode - Pink color theme-color-theme.json"
       }
     ]
   }
