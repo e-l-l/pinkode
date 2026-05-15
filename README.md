@@ -91,7 +91,7 @@ code --install-extension pinkode-0.1.0.vsix
 > Screenshots TODO. Add captures to `screenshots/preview.png` and reference here.
 
 ```
-![Editor preview](screenshots/preview.png)
+
 ```
 
 ## License
