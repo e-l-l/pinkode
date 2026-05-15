@@ -96,4 +96,4 @@ code --install-extension pinkode-0.1.0.vsix
 
 ## License
 
-See `LICENSE` (TODO).
+MIT — see [`LICENSE`](./LICENSE).
