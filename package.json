@@ -1,0 +1,21 @@
+{
+  "name": "pinkode",
+  "displayName": "pinkode",
+  "description": "a pink color theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pinkode - Pink colot theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pinkode - Pink colot theme-color-theme.json"
+      }
+    ]
+  }
+}
