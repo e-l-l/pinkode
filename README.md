@@ -1,24 +1,26 @@
-# Pinkode — A Pink color theme
+# pinkode
 
-Two VS Code themes built around **raspberry pink** as the load-bearing accent — a near-black noir and a WCAG-AA cream-and-rose light, sharing a common identity.
+A pink-forward VS Code theme, in two flavors. Raspberry pink does the heavy lifting, with a curated complement palette for syntax range.
 
-- **Pinkode — Noir** · designed for late nights.
-- **Pinkode — Light** · AA-tuned, designed for morning light.
+- **pinkode - noir** — near-black surfaces, bright pink accents. For dark mode.
+- **pinkode - light** — cream-and-rose surfaces, WCAG-AA across every syntax token. For day.
 
 ## Install
 
 1. Open the Extensions view (`Cmd+Shift+X` / `Ctrl+Shift+X`)
 2. Search for `Pinkode`
 3. Install
-4. `Cmd+K Cmd+T` (or `Ctrl+K Ctrl+T`) → pick **Pinkode — Noir** or **Pinkode — Light**
+4. `Cmd+K Cmd+T` (or `Ctrl+K Ctrl+T`) → pick **pinkode - noir** or **pinkode - light**
 
 Or from a `.vsix`:
 
 ```sh
-code --install-extension pinkode-0.2.0.vsix
+code --install-extension pinkode-0.2.1.vsix
 ```
 
 ## Noir — palette
+
+Six surfaces, six pinks, six complements.
 
 ### Surfaces — black + greys
 
@@ -65,7 +67,7 @@ code --install-extension pinkode-0.2.0.vsix
 
 ## Light — palette (AA)
 
-Every syntax token clears WCAG AA (≥4.5:1) against the editor canvas `#FFFAFD`. Pastel pink is reserved for surfaces — never used as text.
+Every syntax token clears WCAG AA (≥4.5:1) on `#FFFAFD`. Every accent annotated with its contrast ratio. Pastel stays on surfaces — never text.
 
 ### Surfaces — cream + rose
 
@@ -138,6 +140,12 @@ Every syntax token clears WCAG AA (≥4.5:1) against the editor canvas `#FFFAFD`
 ## Screenshots
 
 > Screenshots TODO. Add captures to `screenshots/preview.png` (Noir) and `screenshots/preview-light.png` (Light) and reference here.
+
+## Open source
+
+pinkode is MIT-licensed and lives on GitHub: https://github.com/e-l-l/pinkode
+
+Issues, palette tweaks, and PRs welcome — open a [pull request](https://github.com/e-l-l/pinkode/pulls) or [file an issue](https://github.com/e-l-l/pinkode/issues) with a screenshot of what you'd like changed.
 
 ## License
 

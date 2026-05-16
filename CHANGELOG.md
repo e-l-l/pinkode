@@ -4,6 +4,15 @@ All notable changes to the "pinkode" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.1] - 2026-05-16
+
+### Changed
+
+- Theme labels simplified: `Pinkode — Hot Pink Noir` → `pinkode - noir`, `Pinkode — Hot Pink Light` → `pinkode - light`.
+- `displayName` → `pinkode`.
+- Tightened extension description and README intro.
+- README: new "Open source" section linking the GitHub repo and inviting contributions.
+
 ## [0.2.0] - 2026-05-16
 
 ### Added
