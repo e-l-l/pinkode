@@ -1,23 +1,24 @@
-# Pinkode — Hot Pink Noir
+# Pinkode — A Pink color theme
 
-A near-black VS Code theme with **hot pink** as the load-bearing accent, **pastel pink** for highlights, and a curated set of **lavender**, **sky** and **peach** tokens for syntax.
+Two VS Code themes built around **raspberry pink** as the load-bearing accent — a near-black noir and a WCAG-AA cream-and-rose light, sharing a common identity.
 
-Designed for late nights.
+- **Pinkode — Noir** · designed for late nights.
+- **Pinkode — Light** · AA-tuned, designed for morning light.
 
 ## Install
 
 1. Open the Extensions view (`Cmd+Shift+X` / `Ctrl+Shift+X`)
 2. Search for `Pinkode`
 3. Install
-4. `Cmd+K Cmd+T` (or `Ctrl+K Ctrl+T`) → **Pinkode — Hot Pink Noir**
+4. `Cmd+K Cmd+T` (or `Ctrl+K Ctrl+T`) → pick **Pinkode — Noir** or **Pinkode — Light**
 
 Or from a `.vsix`:
 
 ```sh
-code --install-extension pinkode-0.1.0.vsix
+code --install-extension pinkode-0.2.0.vsix
 ```
 
-## Palette
+## Noir — palette
 
 ### Surfaces — black + greys
 
@@ -62,37 +63,81 @@ code --install-extension pinkode-0.1.0.vsix
 | Info    | `#8DD6FF` |
 | Success | `#9EEBCF` |
 
-## Syntax token map
+## Light — palette (AA)
 
-| Role                          | Color       |
-| ----------------------------- | ----------- |
-| Keywords, control flow        | Hot Pink    |
-| `this` / `self` (italic)      | Hot Pink    |
-| Functions, function calls     | Lavender    |
-| Types, classes, interfaces    | Sky         |
-| Properties (`.scrollLeft`)    | Pastel Pink |
-| Parameters (italic)           | Blush       |
-| Strings                       | Peach       |
-| Numbers                       | Amber       |
-| Language constants            | Lavender    |
-| Operators                     | Neon Pink   |
-| Punctuation                   | Dust Rose   |
-| Comments (italic)             | `#6A5A64`   |
-| Regex, escapes                | Mint        |
-| Tags                          | Magenta     |
-| Attributes                    | Blush       |
-| Diff added                    | Mint        |
-| Diff removed                  | Error       |
-| Diff modified                 | Amber       |
-| AI ghost text / inline hints  | Lavender    |
+Every syntax token clears WCAG AA (≥4.5:1) against the editor canvas `#FFFAFD`. Pastel pink is reserved for surfaces — never used as text.
+
+### Surfaces — cream + rose
+
+| Token         | Hex       | Role                           |
+| ------------- | --------- | ------------------------------ |
+| Petal         | `#F9E1EA` | Window backdrop                |
+| Activity Bar  | `#F7DDE8` | Deepest chrome                 |
+| Whisper       | `#FFFAFD` | Main editor canvas             |
+| Sidebar       | `#FBECF2` | File tree                      |
+| Panel         | `#FDF2F6` | Panel · terminal               |
+| Elevated      | `#FFFFFF` | Active tab inner · breadcrumb  |
+| Input / Hover | `#F4DBE5` | Form fields, hover             |
+
+### Accents — the pinks (AA-safe except pastel)
+
+| Token       | Hex       | Role · Contrast on `#FFFAFD`           |
+| ----------- | --------- | -------------------------------------- |
+| Raspberry   | `#BD1B57` | Keywords · brand · cursor · 5.88:1     |
+| Magenta     | `#B8175A` | Tags · properties · 6.15:1             |
+| Neon Pink   | `#C42466` | Operators · 5.37:1                     |
+| Rose        | `#BE2E5E` | Status bar (white fg) · 5.44:1         |
+| Blush       | `#9E3F66` | Parameters · attributes · 6.06:1       |
+| Pastel Pink | `#F4A8C2` | **Surface only** — never used as text  |
+| Dust Rose   | `#82475E` | Punctuation · 6.75:1                   |
+
+### Complements — for syntax range
+
+| Token  | Hex       | Role                       |
+| ------ | --------- | -------------------------- |
+| Plum   | `#7C3AED` | Functions · constants · AI |
+| Teal   | `#0E7490` | Types · classes            |
+| Forest | `#15803D` | Regex · added · success    |
+| Burnt  | `#B45309` | Strings · warnings · find  |
+| Amber  | `#92400E` | Numbers · modified         |
+| Ink    | `#2A0A17` | Primary text · 17.6:1      |
+
+### Semantic
+
+| Token   | Hex       |
+| ------- | --------- |
+| Error   | `#C81E3A` |
+| Warning | `#B45309` |
+| Info    | `#0E7490` |
+| Success | `#15803D` |
+
+## Syntax token map (both variants)
+
+| Role                          | Noir         | Light       |
+| ----------------------------- | ------------ | ----------- |
+| Keywords, control flow        | Hot Pink     | Raspberry   |
+| `this` / `self` (italic)      | Hot Pink     | Raspberry   |
+| Functions, function calls     | Lavender     | Plum        |
+| Types, classes, interfaces    | Sky          | Teal        |
+| Properties (`.scrollLeft`)    | Pastel Pink  | Magenta     |
+| Parameters (italic)           | Blush        | Blush (dk)  |
+| Strings                       | Peach        | Burnt       |
+| Numbers                       | Amber        | Amber (dk)  |
+| Language constants            | Lavender     | Plum        |
+| Operators                     | Neon Pink    | Neon (dk)   |
+| Punctuation                   | Dust Rose    | Dust Rose   |
+| Comments (italic)             | `#6A5A64`    | `#8E5C70`   |
+| Regex, escapes                | Mint         | Forest      |
+| Tags                          | Magenta      | Magenta     |
+| Attributes                    | Blush        | Blush (dk)  |
+| Diff added                    | Mint         | Forest      |
+| Diff removed                  | Error        | Error       |
+| Diff modified                 | Amber        | Amber (dk)  |
+| AI ghost text / inline hints  | Lavender     | Plum        |
 
 ## Screenshots
 
-> Screenshots TODO. Add captures to `screenshots/preview.png` and reference here.
-
-```
-
-```
+> Screenshots TODO. Add captures to `screenshots/preview.png` (Noir) and `screenshots/preview-light.png` (Light) and reference here.
 
 ## License
 

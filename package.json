@@ -1,8 +1,8 @@
 {
   "name": "pinkode",
   "displayName": "Pinkode — Hot Pink Noir",
-  "description": "A near-black VS Code theme with hot pink as the load-bearing accent, pastel pink for highlights, and a curated set of lavender, sky and peach tokens for syntax.",
-  "version": "0.1.1",
+  "description": "A pair of VS Code themes — Noir (near-black) and Light (AA-compliant cream-and-rose) — with raspberry pink as the load-bearing accent and curated complements for syntax range.",
+  "version": "0.2.0",
   "publisher": "e-l-l",
   "license": "MIT",
   "repository": {
@@ -22,9 +22,11 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "pink",
     "hot pink",
     "noir",
+    "wcag",
     "color-theme"
   ],
   "contributes": {
@@ -33,6 +35,11 @@
         "label": "Pinkode — Hot Pink Noir",
         "uiTheme": "vs-dark",
         "path": "./themes/Pinkode - Pink color theme-color-theme.json"
+      },
+      {
+        "label": "Pinkode — Hot Pink Light",
+        "uiTheme": "vs",
+        "path": "./themes/Pinkode - Hot Pink Light-color-theme.json"
       }
     ]
   }
