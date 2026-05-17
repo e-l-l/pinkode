@@ -1,10 +1,5 @@
 # pinkode
 
-[![Version](https://vsmarketplacebadges.dev/version-short/e-l-l.pinkode.svg)](https://marketplace.visualstudio.com/items?itemName=e-l-l.pinkode)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/e-l-l.pinkode.svg)](https://marketplace.visualstudio.com/items?itemName=e-l-l.pinkode)
-[![Rating](https://vsmarketplacebadges.dev/rating-short/e-l-l.pinkode.svg)](https://marketplace.visualstudio.com/items?itemName=e-l-l.pinkode&ssr=false#review-details)
-[![License: MIT](https://img.shields.io/badge/license-MIT-BD1B57.svg)](./LICENSE)
-
 > A pink-forward VS Code theme. Two flavors — **Noir** for dark, **Light** for day. Raspberry pink does the heavy lifting; a curated complement palette covers the syntax range.
 
 ## Preview
