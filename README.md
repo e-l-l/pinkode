@@ -151,7 +151,8 @@ Every syntax token clears WCAG AA (≥4.5:1) on `#FFFAFD`. Every accent annotate
 | Diff added                    | Mint         | Forest      |
 | Diff removed                  | Error        | Error       |
 | Diff modified                 | Amber        | Amber (dk)  |
-| AI ghost text / inline hints  | Lavender     | Plum        |
+| AI ghost text                 | Lavender     | `#A87890`   |
+| Inline hints                  | Lavender     | Plum        |
 
 </details>
 

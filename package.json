@@ -2,7 +2,7 @@
   "name": "pinkode",
   "displayName": "pinkode",
   "description": "A pink-forward VS Code theme in two flavors — Noir for dark mode, Light for day. WCAG-AA contrast, considered syntax palette, no filler.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "e-l-l",
   "license": "MIT",
   "repository": {

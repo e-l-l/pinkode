@@ -4,6 +4,12 @@ All notable changes to the "pinkode" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.2] - 2026-05-17
+
+### Fixed
+
+- Light theme: SCM commit message placeholder no longer renders in saturated Plum. `editorGhostText.foreground` retoned to muted rose `#A87890` so the placeholder (and inline-completion ghost text) recedes against the pink canvas. `editorHint.foreground` unchanged.
+
 ## [0.2.1] - 2026-05-16
 
 ### Changed
