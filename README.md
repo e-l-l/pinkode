@@ -6,8 +6,17 @@
 
 | pinkode - noir | pinkode - light |
 | :---: | :---: |
-| ![pinkode noir](screenshots/preview-noir.png) | ![pinkode light](screenshots/preview-light.png) |
+| ![pinkode noir](screenshots/noir-tsx.png) | ![pinkode light](screenshots/light-tsx.png) |
 | near-black surfaces · bright pink accents | cream-and-rose surfaces · WCAG-AA syntax |
+
+<details>
+<summary>Python preview</summary>
+
+| pinkode - noir | pinkode - light |
+| :---: | :---: |
+| ![noir · py](screenshots/noir-py.png) | ![light · py](screenshots/light-py.png) |
+
+</details>
 
 ## Install
 
