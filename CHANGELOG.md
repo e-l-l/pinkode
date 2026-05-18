@@ -4,6 +4,12 @@ All notable changes to the "pinkode" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.3] - 2026-05-18
+
+### Changed
+
+- Dark theme: softened active list selection in tree views (Source Control, Explorer). `list.focusOutline` dropped from solid `#FF3D8C` to 40% alpha `#FF3D8C66`, and `list.activeSelectionBackground` from `#FF3D8C1F` to `#FF3D8C14`. Selection remains legible without dominating the row.
+
 ## [0.2.2] - 2026-05-17
 
 ### Fixed

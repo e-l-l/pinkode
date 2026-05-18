@@ -69,7 +69,7 @@
 		"sideBarSectionHeader.foreground": "#F4E4EC",
 		"sideBarSectionHeader.border": "#1E1E26",
 
-		"list.activeSelectionBackground": "#FF3D8C1F",
+		"list.activeSelectionBackground": "#FF3D8C14",
 		"list.activeSelectionForeground": "#FFB3D1",
 		"list.inactiveSelectionBackground": "#FF3D8C0F",
 		"list.inactiveSelectionForeground": "#F4E4EC",
@@ -77,7 +77,7 @@
 		"list.hoverForeground": "#F4E4EC",
 		"list.focusBackground": "#FF3D8C1A",
 		"list.focusForeground": "#F4E4EC",
-		"list.focusOutline": "#FF3D8C",
+		"list.focusOutline": "#FF3D8C66",
 		"list.highlightForeground": "#FF3D8C",
 		"list.errorForeground": "#FF3D6D",
 		"list.warningForeground": "#FFB088",
