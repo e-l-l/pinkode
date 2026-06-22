@@ -1,8 +1,8 @@
 {
   "name": "pinkode",
   "displayName": "pinkode",
-  "description": "A pink-forward VS Code theme in two flavors — Noir for dark mode, Light for day. WCAG-AA contrast, considered syntax palette, no filler.",
-  "version": "0.2.3",
+  "description": "A pink-forward VS Code theme in three flavors — Noir for dark mode, Haze for low-contrast dark, Light for day. WCAG-AA contrast, considered syntax palette, no filler.",
+  "version": "0.3.0",
   "publisher": "e-l-l",
   "license": "MIT",
   "repository": {
@@ -26,6 +26,8 @@
     "pink",
     "hot pink",
     "noir",
+    "haze",
+    "low contrast",
     "wcag",
     "color-theme"
   ],
@@ -35,6 +37,11 @@
         "label": "pinkode - noir",
         "uiTheme": "vs-dark",
         "path": "./themes/Pinkode - Pink color theme-color-theme.json"
+      },
+      {
+        "label": "pinkode - haze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pinkode - Haze-color-theme.json"
       },
       {
         "label": "pinkode - light",

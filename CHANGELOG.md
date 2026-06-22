@@ -4,6 +4,19 @@ All notable changes to the "pinkode" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.0] - 2026-06-23
+
+### Added
+
+- **pinkode - haze**: a third flavor — a low-contrast sibling of Noir for longer, lower-strain sessions. Same hue identity, deliberately smaller contrast deltas. Hand-authored as an independent theme (no build step); see `CONTEXT.md` for the flavor vocabulary.
+  - Surfaces lifted off black toward grey: editor canvas `#0D0D11` → `#1C1C22`, ramp from Void `#131318` up to Input/Hover `#2C2C36`.
+  - Primary text pulled off pure-white: `#F4E4EC` → `#D8CDD4` (~9:1 on canvas, down from ~15:1).
+  - Pinks desaturated to pastel across syntax **and** chrome (cursor, badges, borders, buttons, selection): Hot Pink `#FF3D8C` → `#FF85B5`, Magenta tags `#FF2DA0` → `#FF6FBE`, Neon `#FF5FA8` → `#FF96C0`, Blush `#FF9CC2` → `#FFB6D0`, Pastel `#FFB3D1` → `#FFC8DD`, Dust Rose `#D18BA7` → `#C79FAF`.
+  - Complements dimmed but kept distinct: Lavender `#C4A3FF` → `#B6A0E8`, Sky `#8DD6FF` → `#93C9EC`, Mint `#9EEBCF` → `#A6DEC6`, Peach `#FFB088` → `#ECAC8E`, Amber `#FFD28A` → `#E8C794`.
+  - Status signals stay at full Noir strength — error/warning/info/success, find match, git decorations, and diff colors are exempt from softening so alerts still register.
+- Third registered theme under `contributes.themes` — `pinkode - haze` (`vs-dark`).
+- New keywords: `haze`, `low contrast`.
+
 ## [0.2.3] - 2026-05-18
 
 ### Changed

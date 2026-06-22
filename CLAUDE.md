@@ -4,9 +4,10 @@ Context for future Claude sessions working on this repo.
 
 ## Project
 
-VS Code color theme extension. Publishes two themes:
+VS Code color theme extension. Publishes three themes:
 
 - `pinkode - noir` (dark, `vs-dark`)
+- `pinkode - haze` (low-contrast dark, `vs-dark`) — hand-authored soft sibling of noir; lifted grey surfaces, pastel pinks, dimmed complements, but status signals stay loud
 - `pinkode - light` (light, `vs`, WCAG-AA syntax)
 
 No source code, no build step, no tests — just JSON themes + manifest.
@@ -14,7 +15,9 @@ No source code, no build step, no tests — just JSON themes + manifest.
 ## Layout
 
 - `themes/Pinkode - Pink color theme-color-theme.json` — noir theme
+- `themes/Pinkode - Haze-color-theme.json` — haze theme (low-contrast noir)
 - `themes/Pinkode - Hot Pink Light-color-theme.json` — light theme
+- `CONTEXT.md` — glossary: flavor vocabulary (Flavor / Surface / Accent / Complement / Signal) and the noir↔haze relationship
 - `package.json` — `contributes.themes[]` registers both files; `version` is the published version
 - `README.md` — palette tables: every named color, role, and (for light) contrast ratio
 - `CHANGELOG.md` — Keep-a-Changelog format

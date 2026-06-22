@@ -1,20 +1,20 @@
 # pinkode
 
-> A pink-forward VS Code theme. Two flavors — **Noir** for dark, **Light** for day. Raspberry pink does the heavy lifting; a curated complement palette covers the syntax range.
+> A pink-forward VS Code theme. Three flavors — **Noir** for dark, **Haze** for low-contrast dark, **Light** for day. Raspberry pink does the heavy lifting; a curated complement palette covers the syntax range.
 
 ## Preview
 
-| pinkode - noir | pinkode - light |
-| :---: | :---: |
-| ![pinkode noir](screenshots/noir-tsx.png) | ![pinkode light](screenshots/light-tsx.png) |
-| near-black surfaces · bright pink accents | cream-and-rose surfaces · WCAG-AA syntax |
+| pinkode - noir | pinkode - haze | pinkode - light |
+| :---: | :---: | :---: |
+| ![pinkode noir](screenshots/noir-tsx.png) | _screenshots coming soon_ | ![pinkode light](screenshots/light-tsx.png) |
+| near-black surfaces · bright pink accents | lifted grey surfaces · pastel pinks · low contrast | cream-and-rose surfaces · WCAG-AA syntax |
 
 <details>
 <summary>Python preview</summary>
 
-| pinkode - noir | pinkode - light |
-| :---: | :---: |
-| ![noir · py](screenshots/noir-py.png) | ![light · py](screenshots/light-py.png) |
+| pinkode - noir | pinkode - haze | pinkode - light |
+| :---: | :---: | :---: |
+| ![noir · py](screenshots/noir-py.png) | _screenshots coming soon_ | ![light · py](screenshots/light-py.png) |
 
 </details>
 
@@ -23,12 +23,12 @@
 1. Open the Extensions view (`Cmd+Shift+X` / `Ctrl+Shift+X`)
 2. Search for `Pinkode`
 3. Install
-4. `Cmd+K Cmd+T` (or `Ctrl+K Ctrl+T`) → pick **pinkode - noir** or **pinkode - light**
+4. `Cmd+K Cmd+T` (or `Ctrl+K Ctrl+T`) → pick **pinkode - noir**, **pinkode - haze**, or **pinkode - light**
 
 Or from a `.vsix`:
 
 ```sh
-code --install-extension pinkode-0.2.1.vsix
+code --install-extension pinkode-0.3.0.vsix
 ```
 
 ## Palette
@@ -71,6 +71,56 @@ code --install-extension pinkode-0.2.1.vsix
 | ![#F4E4EC](https://placehold.co/15x15/F4E4EC/F4E4EC.png) | Whisper  | `#F4E4EC` | Primary text               |
 
 ### Semantic
+
+| | Token | Hex |
+| :-: | --- | --- |
+| ![#FF3D6D](https://placehold.co/15x15/FF3D6D/FF3D6D.png) | Error   | `#FF3D6D` |
+| ![#FFB088](https://placehold.co/15x15/FFB088/FFB088.png) | Warning | `#FFB088` |
+| ![#8DD6FF](https://placehold.co/15x15/8DD6FF/8DD6FF.png) | Info    | `#8DD6FF` |
+| ![#9EEBCF](https://placehold.co/15x15/9EEBCF/9EEBCF.png) | Success | `#9EEBCF` |
+
+</details>
+
+<details>
+<summary><strong>Haze</strong> — low-contrast noir: lifted greys, pastel pinks, loud signals</summary>
+
+Noir's hue identity at smaller contrast deltas — surfaces lifted off black, text off pure-white, pinks and complements softened (editor canvas↔text drops from ~15:1 to ~9:1). Status signals (error/warning/info/success, find, diff, git) keep Noir's full-strength values, so a syntax complement and its matching status color **diverge** here — e.g. strings use Peach `#ECAC8E` while a warning stays `#FFB088`.
+
+### Surfaces — lifted greys
+
+| | Token | Hex | Role |
+| :-: | --- | --- | --- |
+| ![#131318](https://placehold.co/15x15/131318/131318.png) | Void          | `#131318` | Window backdrop        |
+| ![#17171D](https://placehold.co/15x15/17171D/17171D.png) | Activity Bar  | `#17171D` | Deepest chrome         |
+| ![#1C1C22](https://placehold.co/15x15/1C1C22/1C1C22.png) | Editor        | `#1C1C22` | Main canvas            |
+| ![#202027](https://placehold.co/15x15/202027/202027.png) | Sidebar       | `#202027` | File tree, panels      |
+| ![#26262E](https://placehold.co/15x15/26262E/26262E.png) | Elevated      | `#26262E` | Active tab, breadcrumb |
+| ![#2C2C36](https://placehold.co/15x15/2C2C36/2C2C36.png) | Input / Hover | `#2C2C36` | Form fields, hover     |
+
+### Accents — pastel pinks
+
+| | Token | Hex | Role |
+| :-: | --- | --- | --- |
+| ![#FF85B5](https://placehold.co/15x15/FF85B5/FF85B5.png) | Hot Pink    | `#FF85B5` | Keywords · selection · brand |
+| ![#FF6FBE](https://placehold.co/15x15/FF6FBE/FF6FBE.png) | Magenta     | `#FF6FBE` | Tags · markup                |
+| ![#FF96C0](https://placehold.co/15x15/FF96C0/FF96C0.png) | Neon Pink   | `#FF96C0` | Operators                    |
+| ![#E58BA8](https://placehold.co/15x15/E58BA8/E58BA8.png) | Rose        | `#E58BA8` | Hover · borders              |
+| ![#FFB6D0](https://placehold.co/15x15/FFB6D0/FFB6D0.png) | Blush       | `#FFB6D0` | Parameters · attributes      |
+| ![#FFC8DD](https://placehold.co/15x15/FFC8DD/FFC8DD.png) | Pastel Pink | `#FFC8DD` | Properties · selected text   |
+| ![#C79FAF](https://placehold.co/15x15/C79FAF/C79FAF.png) | Dust Rose   | `#C79FAF` | Punctuation                  |
+
+### Complements — dimmed, kept distinct
+
+| | Token | Hex | Role |
+| :-: | --- | --- | --- |
+| ![#B6A0E8](https://placehold.co/15x15/B6A0E8/B6A0E8.png) | Lavender | `#B6A0E8` | Functions · constants · AI |
+| ![#93C9EC](https://placehold.co/15x15/93C9EC/93C9EC.png) | Sky      | `#93C9EC` | Types · classes            |
+| ![#A6DEC6](https://placehold.co/15x15/A6DEC6/A6DEC6.png) | Mint     | `#A6DEC6` | Regex · escapes (syntax)   |
+| ![#ECAC8E](https://placehold.co/15x15/ECAC8E/ECAC8E.png) | Peach    | `#ECAC8E` | Strings (syntax)           |
+| ![#E8C794](https://placehold.co/15x15/E8C794/E8C794.png) | Amber    | `#E8C794` | Numbers (syntax)           |
+| ![#D8CDD4](https://placehold.co/15x15/D8CDD4/D8CDD4.png) | Whisper  | `#D8CDD4` | Primary text               |
+
+### Semantic — kept at Noir strength
 
 | | Token | Hex |
 | :-: | --- | --- |
@@ -133,7 +183,10 @@ Every syntax token clears WCAG AA (≥4.5:1) on `#FFFAFD`. Every accent annotate
 </details>
 
 <details>
-<summary><strong>Syntax token map</strong> — role → color, both variants</summary>
+<summary><strong>Syntax token map</strong> — role → color, noir & light</summary>
+
+**Haze** maps every role to the same accent _name_ as Noir, at the softened hexes in the Haze palette above — except status signals (diff added/removed/modified, error), which keep Noir's full-strength color. AI ghost text and inline hints soften with the rest.
+
 
 | Role                          | Noir         | Light       |
 | ----------------------------- | ------------ | ----------- |
