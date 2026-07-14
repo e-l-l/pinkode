@@ -28,7 +28,7 @@
 Or from a `.vsix`:
 
 ```sh
-code --install-extension pinkode-0.3.0.vsix
+code --install-extension pinkode-0.3.1.vsix
 ```
 
 ## Palette
