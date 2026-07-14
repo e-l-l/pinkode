@@ -6,7 +6,7 @@
 
 | pinkode - noir | pinkode - haze | pinkode - light |
 | :---: | :---: | :---: |
-| ![pinkode noir](screenshots/noir-tsx.png) | _screenshots coming soon_ | ![pinkode light](screenshots/light-tsx.png) |
+| ![pinkode noir](screenshots/noir-tsx.png) | ![pinkode haze](screenshots/haze-tsx.png) | ![pinkode light](screenshots/light-tsx.png) |
 | near-black surfaces · bright pink accents | lifted grey surfaces · pastel pinks · low contrast | cream-and-rose surfaces · WCAG-AA syntax |
 
 <details>
@@ -14,7 +14,7 @@
 
 | pinkode - noir | pinkode - haze | pinkode - light |
 | :---: | :---: | :---: |
-| ![noir · py](screenshots/noir-py.png) | _screenshots coming soon_ | ![light · py](screenshots/light-py.png) |
+| ![noir · py](screenshots/noir-py.png) | ![haze · py](screenshots/haze-py.png) | ![light · py](screenshots/light-py.png) |
 
 </details>
 
