@@ -1,0 +1,20 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pink" x1="388" y1="280" x2="640" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF5C9E"/>
+      <stop offset="1" stop-color="#FF3D8C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tile: noir canvas -->
+  <rect x="0" y="0" width="1024" height="1024" rx="200" fill="#0D0D11"/>
+  <rect x="4" y="4" width="1016" height="1016" rx="196" fill="none" stroke="#1E1E26" stroke-width="8"/>
+
+  <!-- lowercase p monogram -->
+  <g stroke="url(#pink)" stroke-width="132" stroke-linecap="round" fill="none">
+    <!-- stem + descender -->
+    <line x1="388" y1="300" x2="388" y2="790"/>
+    <!-- bowl -->
+    <circle cx="513" cy="450" r="125"/>
+  </g>
+</svg>

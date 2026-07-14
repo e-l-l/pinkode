@@ -4,6 +4,7 @@
   "description": "A pink-forward VS Code theme in three flavors — Noir for dark mode, Haze for low-contrast dark, Light for day. WCAG-AA contrast, considered syntax palette, no filler.",
   "version": "0.3.1",
   "publisher": "e-l-l",
+  "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
