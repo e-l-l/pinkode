@@ -4,6 +4,12 @@ All notable changes to the "pinkode" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.2] - 2026-07-15
+
+### Added
+
+- Extension icon: a lowercase-`p` monogram in hot pink (`#FF3D8C`→`#FF5C9E` gradient) on the noir canvas `#0D0D11`. Appears on the Marketplace listing and in the Extensions sidebar. Vector source at `images/icon.svg`, rasterized to `images/icon.png` (256×256); referenced via `icon` in `package.json`.
+
 ## [0.3.0] - 2026-06-23
 
 ### Added
