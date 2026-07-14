@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Added
 
-- Extension icon: a lowercase-`p` monogram in hot pink (`#FF3D8C`→`#FF5C9E` gradient) on the noir canvas `#0D0D11`. Appears on the Marketplace listing and in the Extensions sidebar. Vector source at `images/icon.svg`, rasterized to `images/icon.png` (256×256); referenced via `icon` in `package.json`.
+- Extension icon
 
 ## [0.3.0] - 2026-06-23
 
